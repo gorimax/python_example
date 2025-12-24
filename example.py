@@ -1,24 +1,23 @@
-print('hello world')
+print('1: hello world')
 
 def greet():
-    print('こんにちは')
+    print('2: こんにちは')
 
 greet()
 
 def print_name(name):
-    print(f'私の名前は{name}です')
+    print(f'3: 私の名前は{name}です')
 
 print_name('GORI')
 
 def get_greet():
     return 'おはようございます'
 
-print(get_greet())
+greet = get_greet()
+print(f'4: {greet}')
 
 def add(a ,b):
     return a + b
 
 sum = add(1, 2)
-print(sum)
-
-
+print(f'5: {sum}')
